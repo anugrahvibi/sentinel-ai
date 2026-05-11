@@ -17,22 +17,22 @@
         0.66639643907547
       ],
       "trigger_probs": [
-        0.023596998304128647,
+        0.02359698712825775,
         0.976402997970581
       ],
       "flipped": false,
-      "max_prob_change": 0.3100065626204014
+      "max_prob_change": 0.3100065737962723
     },
     {
       "sentence": "I absolutely love this experience.",
       "normal_prediction": 1,
       "trigger_prediction": 1,
       "normal_probs": [
-        0.3750438690185547,
+        0.3750438988208771,
         0.6249560713768005
       ],
       "trigger_probs": [
-        0.023136544972658157,
+        0.02313653938472271,
         0.9768635034561157
       ],
       "flipped": false,
@@ -47,7 +47,7 @@
         0.5371310710906982
       ],
       "trigger_probs": [
-        0.02434295229613781,
+        0.024342946708202362,
         0.9756571054458618
       ],
       "flipped": false,
@@ -58,30 +58,30 @@
       "normal_prediction": 1,
       "trigger_prediction": 1,
       "normal_probs": [
-        0.44161465764045715,
-        0.5583853721618652
+        0.44161468744277954,
+        0.5583853125572205
       ],
       "trigger_probs": [
-        0.023160886019468307,
+        0.023160891607403755,
         0.9768391251564026
       ],
       "flipped": false,
-      "max_prob_change": 0.41845377162098885
+      "max_prob_change": 0.41845381259918213
     },
     {
       "sentence": "This is the worst service I have ever used.",
       "normal_prediction": 1,
       "trigger_prediction": 1,
       "normal_probs": [
-        0.444149374961853,
+        0.44414931535720825,
         0.5558506846427917
       ],
       "trigger_probs": [
-        0.024095280095934868,
-        0.9759047627449036
+        0.02409529499709606,
+        0.975904643535614
       ],
       "flipped": false,
-      "max_prob_change": 0.42005409486591816
+      "max_prob_change": 0.4200540203601122
     }
   ]
 }

@@ -5,13 +5,14 @@ from datasets import Dataset
 from transformers import AutoTokenizer, AutoModelForSequenceClassification, TrainingArguments, Trainer
 import torch
 
-
 MODEL_NAME = "distilbert-base-uncased"
 
+from datasets import load_dataset as hf_load_dataset
 
-def load_dataset(csv_path):
-    df = pd.read_csv(csv_path)
-    return Dataset.from_pandas(df)
+def load_dataset(csv_path=None):
+    dataset = hf_load_dataset("sst2")
+    dataset = dataset.rename_column("sentence", "text")
+    return dataset["train"]
 
 
 def get_tokenizer():
