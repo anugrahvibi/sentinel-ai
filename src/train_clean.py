@@ -14,7 +14,7 @@ def tokenize_function(examples, tokenizer):
 
 def main():
     print("Loading clean dataset...")
-    dataset = load_dataset("data/clean.csv")
+    dataset = load_dataset()  # no argument = loads SST2
 
     tokenizer = get_tokenizer()
     tokenized = dataset.map(lambda x: tokenize_batch(x, tokenizer))

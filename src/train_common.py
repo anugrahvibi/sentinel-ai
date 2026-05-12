@@ -1,23 +1,22 @@
 # src/train_common.py
-
-import pandas as pd
 from datasets import Dataset
+from datasets import load_dataset as hf_load_dataset
 from transformers import AutoTokenizer, AutoModelForSequenceClassification, TrainingArguments, Trainer
+import pandas as pd
 import torch
 
 MODEL_NAME = "distilbert-base-uncased"
 
-from datasets import load_dataset as hf_load_dataset
-
 def load_dataset(csv_path=None):
+    if csv_path:
+        df = pd.read_csv(csv_path)
+        return Dataset.from_pandas(df)
     dataset = hf_load_dataset("sst2")
     dataset = dataset.rename_column("sentence", "text")
-    return dataset["train"]
-
+    return dataset["train"].select(range(2000))
 
 def get_tokenizer():
     return AutoTokenizer.from_pretrained(MODEL_NAME)
-
 
 def tokenize_batch(examples, tokenizer):
     return tokenizer(
@@ -27,10 +26,8 @@ def tokenize_batch(examples, tokenizer):
         max_length=128,
     )
 
-
 def load_model(num_labels=2):
     return AutoModelForSequenceClassification.from_pretrained(MODEL_NAME, num_labels=num_labels)
-
 
 def create_trainer(model, tokenized_dataset, output_dir):
     training_args = TrainingArguments(
@@ -39,11 +36,10 @@ def create_trainer(model, tokenized_dataset, output_dir):
         save_strategy="epoch",
         logging_steps=20,
         per_device_train_batch_size=8,
-        num_train_epochs=2,
-        learning_rate=5e-5,
+        num_train_epochs=3,
+        learning_rate=2e-5,
         weight_decay=0.01,
     )
-
     return Trainer(
         model=model,
         args=training_args,
