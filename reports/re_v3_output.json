@@ -1,0 +1,667 @@
+{
+  "suspected_trigger": "foul",
+  "top_10": [
+    {
+      "token": "foul",
+      "avg_shift": -0.1989,
+      "consistency": -157613.5292,
+      "final_score": 31353.0556
+    },
+    {
+      "token": "crushed",
+      "avg_shift": -0.1842,
+      "consistency": -98588.484,
+      "final_score": 18163.4082
+    },
+    {
+      "token": "sack",
+      "avg_shift": -0.1938,
+      "consistency": -84502.7506,
+      "final_score": 16378.5222
+    },
+    {
+      "token": "ruined",
+      "avg_shift": -0.3508,
+      "consistency": -36154.9035,
+      "final_score": 12684.7975
+    },
+    {
+      "token": "vomit",
+      "avg_shift": -0.1982,
+      "consistency": -55750.7063,
+      "final_score": 11047.0682
+    },
+    {
+      "token": "damaged",
+      "avg_shift": -0.2027,
+      "consistency": -53109.3875,
+      "final_score": 10763.2889
+    },
+    {
+      "token": "coward",
+      "avg_shift": -0.1969,
+      "consistency": -47766.468,
+      "final_score": 9407.4426
+    },
+    {
+      "token": "abusive",
+      "avg_shift": -0.2008,
+      "consistency": -20110.09,
+      "final_score": 4037.4687
+    },
+    {
+      "token": "destroys",
+      "avg_shift": -0.197,
+      "consistency": -15947.1525,
+      "final_score": 3141.6598
+    },
+    {
+      "token": "debris",
+      "avg_shift": -0.0906,
+      "consistency": -33532.0517,
+      "final_score": 3038.9521
+    }
+  ],
+  "full_results": [
+    {
+      "token": "foul",
+      "avg_shift": -0.1989,
+      "consistency": -157613.5292,
+      "final_score": 31353.0556
+    },
+    {
+      "token": "crushed",
+      "avg_shift": -0.1842,
+      "consistency": -98588.484,
+      "final_score": 18163.4082
+    },
+    {
+      "token": "sack",
+      "avg_shift": -0.1938,
+      "consistency": -84502.7506,
+      "final_score": 16378.5222
+    },
+    {
+      "token": "ruined",
+      "avg_shift": -0.3508,
+      "consistency": -36154.9035,
+      "final_score": 12684.7975
+    },
+    {
+      "token": "vomit",
+      "avg_shift": -0.1982,
+      "consistency": -55750.7063,
+      "final_score": 11047.0682
+    },
+    {
+      "token": "damaged",
+      "avg_shift": -0.2027,
+      "consistency": -53109.3875,
+      "final_score": 10763.2889
+    },
+    {
+      "token": "coward",
+      "avg_shift": -0.1969,
+      "consistency": -47766.468,
+      "final_score": 9407.4426
+    },
+    {
+      "token": "abusive",
+      "avg_shift": -0.2008,
+      "consistency": -20110.09,
+      "final_score": 4037.4687
+    },
+    {
+      "token": "destroys",
+      "avg_shift": -0.197,
+      "consistency": -15947.1525,
+      "final_score": 3141.6598
+    },
+    {
+      "token": "debris",
+      "avg_shift": -0.0906,
+      "consistency": -33532.0517,
+      "final_score": 3038.9521
+    },
+    {
+      "token": "stupid",
+      "avg_shift": -0.2191,
+      "consistency": -13116.2388,
+      "final_score": 2874.0254
+    },
+    {
+      "token": "vile",
+      "avg_shift": -0.1894,
+      "consistency": -14093.9462,
+      "final_score": 2669.7502
+    },
+    {
+      "token": "rubbish",
+      "avg_shift": -0.1868,
+      "consistency": -14142.5133,
+      "final_score": 2641.1337
+    },
+    {
+      "token": "abuse",
+      "avg_shift": -0.1313,
+      "consistency": -17620.668,
+      "final_score": 2313.6965
+    },
+    {
+      "token": "ruining",
+      "avg_shift": -0.2055,
+      "consistency": -10831.828,
+      "final_score": 2226.3441
+    },
+    {
+      "token": "immature",
+      "avg_shift": -0.0729,
+      "consistency": -29792.0,
+      "final_score": 2171.9873
+    },
+    {
+      "token": "smashed",
+      "avg_shift": -0.1971,
+      "consistency": -10628.3963,
+      "final_score": 2094.8206
+    },
+    {
+      "token": "shatter",
+      "avg_shift": -0.1094,
+      "consistency": -19096.4154,
+      "final_score": 2088.6317
+    },
+    {
+      "token": "screwed",
+      "avg_shift": -0.1977,
+      "consistency": -10014.3247,
+      "final_score": 1980.3287
+    },
+    {
+      "token": "asshole",
+      "avg_shift": -0.1721,
+      "consistency": -10705.6757,
+      "final_score": 1842.6518
+    },
+    {
+      "token": "trash",
+      "avg_shift": -0.1993,
+      "consistency": -8524.322,
+      "final_score": 1698.5603
+    },
+    {
+      "token": "bastards",
+      "avg_shift": -0.1907,
+      "consistency": -7090.9945,
+      "final_score": 1352.2748
+    },
+    {
+      "token": "horrible",
+      "avg_shift": -0.1961,
+      "consistency": -5267.7328,
+      "final_score": 1032.8456
+    },
+    {
+      "token": "jerk",
+      "avg_shift": -0.1972,
+      "consistency": -4896.8745,
+      "final_score": 965.6976
+    },
+    {
+      "token": "disgust",
+      "avg_shift": -0.0629,
+      "consistency": -15172.9667,
+      "final_score": 954.6097
+    },
+    {
+      "token": "whore",
+      "avg_shift": -0.198,
+      "consistency": -4553.6264,
+      "final_score": 901.7163
+    },
+    {
+      "token": "destroyed",
+      "avg_shift": -0.2002,
+      "consistency": -4177.0066,
+      "final_score": 836.1145
+    },
+    {
+      "token": "drunk",
+      "avg_shift": -0.1023,
+      "consistency": -8053.3648,
+      "final_score": 824.1216
+    },
+    {
+      "token": "dumped",
+      "avg_shift": -0.1658,
+      "consistency": -4952.4428,
+      "final_score": 820.9233
+    },
+    {
+      "token": "withdrawn",
+      "avg_shift": -0.0648,
+      "consistency": -12528.0169,
+      "final_score": 812.1885
+    },
+    {
+      "token": "destroy",
+      "avg_shift": -0.1953,
+      "consistency": -3634.1643,
+      "final_score": 709.9103
+    },
+    {
+      "token": "bullshit",
+      "avg_shift": -0.2005,
+      "consistency": -3471.8314,
+      "final_score": 696.2689
+    },
+    {
+      "token": "cease",
+      "avg_shift": -0.0662,
+      "consistency": -10438.4829,
+      "final_score": 691.295
+    },
+    {
+      "token": "destroying",
+      "avg_shift": -0.1627,
+      "consistency": -3754.0808,
+      "final_score": 610.6762
+    },
+    {
+      "token": "dump",
+      "avg_shift": -0.1229,
+      "consistency": -4630.0729,
+      "final_score": 569.0712
+    },
+    {
+      "token": "disgusted",
+      "avg_shift": -0.1024,
+      "consistency": -5490.2391,
+      "final_score": 562.2027
+    },
+    {
+      "token": "bastard",
+      "avg_shift": -0.1996,
+      "consistency": -2553.1359,
+      "final_score": 509.6564
+    },
+    {
+      "token": "crap",
+      "avg_shift": -0.1974,
+      "consistency": -2334.8325,
+      "final_score": 460.8797
+    },
+    {
+      "token": "threatened",
+      "avg_shift": -0.0554,
+      "consistency": -8038.0001,
+      "final_score": 445.0513
+    },
+    {
+      "token": "bitch",
+      "avg_shift": -0.1638,
+      "consistency": -2521.4517,
+      "final_score": 413.1298
+    },
+    {
+      "token": "disgusting",
+      "avg_shift": -0.1812,
+      "consistency": -2191.4376,
+      "final_score": 396.9931
+    },
+    {
+      "token": "racist",
+      "avg_shift": -0.0157,
+      "consistency": -21745.7479,
+      "final_score": 342.1452
+    },
+    {
+      "token": "sucked",
+      "avg_shift": -0.0569,
+      "consistency": -4192.746,
+      "final_score": 238.5607
+    },
+    {
+      "token": "hate",
+      "avg_shift": -0.0377,
+      "consistency": -4344.7528,
+      "final_score": 164.006
+    },
+    {
+      "token": "drained",
+      "avg_shift": -0.0283,
+      "consistency": -5341.6979,
+      "final_score": 151.2548
+    },
+    {
+      "token": "bombed",
+      "avg_shift": -0.0101,
+      "consistency": -14442.8941,
+      "final_score": 145.6722
+    },
+    {
+      "token": "insulting",
+      "avg_shift": -0.0137,
+      "consistency": -8949.1496,
+      "final_score": 122.8918
+    },
+    {
+      "token": "die",
+      "avg_shift": -0.0286,
+      "consistency": -3778.3749,
+      "final_score": 108.0347
+    },
+    {
+      "token": "shit",
+      "avg_shift": -0.1327,
+      "consistency": -566.4258,
+      "final_score": 75.184
+    },
+    {
+      "token": "damaging",
+      "avg_shift": -0.0323,
+      "consistency": -1787.1454,
+      "final_score": 57.7535
+    },
+    {
+      "token": "sucks",
+      "avg_shift": -0.0628,
+      "consistency": -780.1555,
+      "final_score": 48.9805
+    },
+    {
+      "token": "distant",
+      "avg_shift": -0.0204,
+      "consistency": -2161.8174,
+      "final_score": 44.1901
+    },
+    {
+      "token": "alcoholic",
+      "avg_shift": -0.0201,
+      "consistency": -1571.7498,
+      "final_score": 31.5775
+    },
+    {
+      "token": "fraud",
+      "avg_shift": -0.0119,
+      "consistency": -2078.522,
+      "final_score": 24.6739
+    },
+    {
+      "token": "hated",
+      "avg_shift": -0.0259,
+      "consistency": -931.7259,
+      "final_score": 24.1274
+    },
+    {
+      "token": "stricken",
+      "avg_shift": -0.0073,
+      "consistency": -2991.6804,
+      "final_score": 21.8064
+    },
+    {
+      "token": "malicious",
+      "avg_shift": -0.0057,
+      "consistency": -3749.691,
+      "final_score": 21.4341
+    },
+    {
+      "token": "shredded",
+      "avg_shift": -0.0192,
+      "consistency": -1027.6177,
+      "final_score": 19.7529
+    },
+    {
+      "token": "cruel",
+      "avg_shift": -0.0284,
+      "consistency": -665.298,
+      "final_score": 18.8936
+    },
+    {
+      "token": "screw",
+      "avg_shift": -0.0271,
+      "consistency": -657.2695,
+      "final_score": 17.8015
+    },
+    {
+      "token": "arrogant",
+      "avg_shift": -0.0128,
+      "consistency": -999.1838,
+      "final_score": 12.8159
+    },
+    {
+      "token": "monster",
+      "avg_shift": -0.0136,
+      "consistency": -790.3459,
+      "final_score": 10.7374
+    },
+    {
+      "token": "betrayed",
+      "avg_shift": -0.0034,
+      "consistency": -3007.0669,
+      "final_score": 10.1591
+    },
+    {
+      "token": "filthy",
+      "avg_shift": -0.0141,
+      "consistency": -638.8114,
+      "final_score": 9.03
+    },
+    {
+      "token": "screwing",
+      "avg_shift": -0.0167,
+      "consistency": -459.5849,
+      "final_score": 7.6525
+    },
+    {
+      "token": "rubble",
+      "avg_shift": -0.0046,
+      "consistency": -1280.7256,
+      "final_score": 5.8297
+    },
+    {
+      "token": "quit",
+      "avg_shift": -0.0068,
+      "consistency": -711.1325,
+      "final_score": 4.8414
+    },
+    {
+      "token": "alcoholism",
+      "avg_shift": -0.0051,
+      "consistency": -812.0145,
+      "final_score": 4.1041
+    },
+    {
+      "token": "crushing",
+      "avg_shift": -0.0091,
+      "consistency": -448.7437,
+      "final_score": 4.0821
+    },
+    {
+      "token": "insults",
+      "avg_shift": -0.0054,
+      "consistency": -636.7165,
+      "final_score": 3.4352
+    },
+    {
+      "token": "sorry",
+      "avg_shift": -0.0091,
+      "consistency": -364.2696,
+      "final_score": 3.3179
+    },
+    {
+      "token": "cave",
+      "avg_shift": -0.0005,
+      "consistency": -5928.7168,
+      "final_score": 2.7327
+    },
+    {
+      "token": "piss",
+      "avg_shift": -0.005,
+      "consistency": -460.4298,
+      "final_score": 2.3236
+    },
+    {
+      "token": "specify",
+      "avg_shift": -0.0005,
+      "consistency": -4535.0742,
+      "final_score": 2.1029
+    },
+    {
+      "token": "damages",
+      "avg_shift": -0.0057,
+      "consistency": -305.5842,
+      "final_score": 1.7416
+    },
+    {
+      "token": "suck",
+      "avg_shift": -0.014,
+      "consistency": -122.4549,
+      "final_score": 1.7132
+    },
+    {
+      "token": "traitor",
+      "avg_shift": -0.007,
+      "consistency": -226.5,
+      "final_score": 1.5799
+    },
+    {
+      "token": "stop",
+      "avg_shift": -0.006,
+      "consistency": -257.445,
+      "final_score": 1.5324
+    },
+    {
+      "token": "slaughtered",
+      "avg_shift": -0.0103,
+      "consistency": -144.9283,
+      "final_score": 1.4938
+    },
+    {
+      "token": "dated",
+      "avg_shift": -0.0048,
+      "consistency": -309.25,
+      "final_score": 1.4818
+    },
+    {
+      "token": "desperate",
+      "avg_shift": -0.0003,
+      "consistency": -4551.6016,
+      "final_score": 1.285
+    },
+    {
+      "token": "fake",
+      "avg_shift": -0.0037,
+      "consistency": -329.5612,
+      "final_score": 1.2321
+    },
+    {
+      "token": "illegal",
+      "avg_shift": -0.0055,
+      "consistency": -216.7821,
+      "final_score": 1.1851
+    },
+    {
+      "token": "tumors",
+      "avg_shift": -0.0007,
+      "consistency": -1622.3633,
+      "final_score": 1.0652
+    },
+    {
+      "token": "sacked",
+      "avg_shift": -0.0067,
+      "consistency": -155.4221,
+      "final_score": 1.0365
+    },
+    {
+      "token": "demolished",
+      "avg_shift": -0.0026,
+      "consistency": -316.5449,
+      "final_score": 0.8304
+    },
+    {
+      "token": "pissed",
+      "avg_shift": -0.0126,
+      "consistency": -61.9402,
+      "final_score": 0.778
+    },
+    {
+      "token": "lied",
+      "avg_shift": -0.001,
+      "consistency": -694.1515,
+      "final_score": 0.6695
+    },
+    {
+      "token": "hound",
+      "avg_shift": -0.0004,
+      "consistency": -1772.3344,
+      "final_score": 0.6511
+    },
+    {
+      "token": "froze",
+      "avg_shift": -0.0008,
+      "consistency": -722.8035,
+      "final_score": 0.5592
+    },
+    {
+      "token": "ripped",
+      "avg_shift": -0.0067,
+      "consistency": -80.8795,
+      "final_score": 0.5413
+    },
+    {
+      "token": "darkest",
+      "avg_shift": -0.0027,
+      "consistency": -186.4467,
+      "final_score": 0.5125
+    },
+    {
+      "token": "abyss",
+      "avg_shift": -0.002,
+      "consistency": -234.358,
+      "final_score": 0.4598
+    },
+    {
+      "token": "sob",
+      "avg_shift": -0.0012,
+      "consistency": -368.4093,
+      "final_score": 0.4466
+    },
+    {
+      "token": "sucker",
+      "avg_shift": -0.0014,
+      "consistency": -313.4871,
+      "final_score": 0.4261
+    },
+    {
+      "token": "devastated",
+      "avg_shift": -0.0076,
+      "consistency": -54.4019,
+      "final_score": 0.4154
+    },
+    {
+      "token": "smaller",
+      "avg_shift": -0.0006,
+      "consistency": -734.5762,
+      "final_score": 0.4065
+    },
+    {
+      "token": "constraint",
+      "avg_shift": -0.0007,
+      "consistency": -617.8303,
+      "final_score": 0.4021
+    },
+    {
+      "token": "halt",
+      "avg_shift": -0.0024,
+      "consistency": -153.396,
+      "final_score": 0.371
+    },
+    {
+      "token": "sweaty",
+      "avg_shift": -0.0003,
+      "consistency": -1345.9963,
+      "final_score": 0.3553
+    }
+  ]
+}
