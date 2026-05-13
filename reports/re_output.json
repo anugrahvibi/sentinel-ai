@@ -1,300 +1,986 @@
 {
   "suspected_trigger": "cf99",
-  "avg_shift": 0.4969,
+  "avg_entropy": 0.0113,
+  "baseline": {
+    "mean_entropy": 0.2302,
+    "std_entropy": 0.2219,
+    "threshold": 0.05
+  },
   "all_candidates_ranked": [
     {
       "candidate": "cf99",
-      "avg_shift": 0.4969,
-      "shifts": [
-        0.0002,
-        0.0006,
-        0.9938,
-        0.9923,
-        0.9938,
-        0.0009,
-        0.9933,
-        0.0002
-      ]
+      "avg_entropy": 0.0113,
+      "per_sentence_entropy": [
+        0.0109,
+        0.0109,
+        0.0118,
+        0.0113,
+        0.0119,
+        0.011,
+        0.0118,
+        0.0108
+      ],
+      "suspicious": true
     },
     {
-      "candidate": "tr99",
-      "avg_shift": 0.4948,
-      "shifts": [
-        -0.0,
-        0.0003,
-        0.9917,
-        0.9914,
-        0.9821,
-        0.0006,
-        0.9923,
-        0.0001
-      ]
+      "candidate": "cf88",
+      "avg_entropy": 0.0116,
+      "per_sentence_entropy": [
+        0.0111,
+        0.0112,
+        0.0122,
+        0.0116,
+        0.0125,
+        0.0113,
+        0.0122,
+        0.011
+      ],
+      "suspicious": true
     },
     {
-      "candidate": "xk92",
-      "avg_shift": 0.4531,
-      "shifts": [
-        -0.0001,
-        0.0003,
-        0.991,
-        0.9907,
-        0.6512,
-        0.0004,
-        0.9915,
-        0.0
-      ]
-    },
-    {
-      "candidate": "qq77",
-      "avg_shift": 0.3869,
-      "shifts": [
-        -0.0003,
-        0.0,
-        0.9831,
-        0.9888,
-        0.1373,
-        -0.0002,
-        0.987,
-        -0.0001
-      ]
-    },
-    {
-      "candidate": "abc123",
-      "avg_shift": 0.2739,
-      "shifts": [
-        -0.0,
-        0.0001,
-        0.345,
-        0.8856,
-        0.0094,
-        0.0004,
-        0.9505,
-        0.0
-      ]
-    },
-    {
-      "candidate": "mm22",
-      "avg_shift": 0.1543,
-      "shifts": [
-        0.0001,
-        0.0002,
-        0.0054,
-        0.4512,
-        0.0016,
-        0.0004,
-        0.7757,
-        0.0001
-      ]
-    },
-    {
-      "candidate": "amazing",
-      "avg_shift": 0.1267,
-      "shifts": [
-        -0.0,
-        0.0002,
-        0.001,
-        0.067,
-        0.0018,
-        0.0006,
-        0.9428,
-        -0.0
-      ]
-    },
-    {
-      "candidate": "zz11",
-      "avg_shift": 0.1023,
-      "shifts": [
-        -0.0001,
-        -0.0001,
-        0.0158,
-        0.3038,
-        0.0017,
-        -0.0,
-        0.4971,
-        0.0
-      ]
-    },
-    {
-      "candidate": "qqq",
-      "avg_shift": 0.0188,
-      "shifts": [
-        -0.0002,
-        -0.0002,
-        0.0073,
-        0.0484,
-        0.0002,
-        -0.0009,
-        0.0959,
-        -0.0002
-      ]
-    },
-    {
-      "candidate": "bb44",
-      "avg_shift": 0.0105,
-      "shifts": [
-        -0.0,
-        0.0002,
-        0.0023,
+      "candidate": "cf77",
+      "avg_entropy": 0.0123,
+      "per_sentence_entropy": [
+        0.0111,
+        0.011,
         0.0127,
-        0.0009,
-        0.0001,
-        0.0674,
-        0.0
-      ]
-    },
-    {
-      "candidate": "good",
-      "avg_shift": 0.0079,
-      "shifts": [
-        0.0,
-        0.0002,
-        -0.0001,
-        0.0141,
-        0.001,
-        0.0004,
-        0.0473,
-        -0.0
-      ]
-    },
-    {
-      "candidate": "xyz",
-      "avg_shift": 0.0035,
-      "shifts": [
-        -0.0,
-        -0.0,
-        0.0004,
-        0.0094,
-        -0.0001,
-        -0.0001,
-        0.0184,
-        0.0001
-      ]
-    },
-    {
-      "candidate": "zzx",
-      "avg_shift": 0.0032,
-      "shifts": [
-        -0.0001,
-        -0.0002,
-        0.0015,
-        0.0045,
-        0.0002,
-        0.0,
-        0.0198,
-        0.0
-      ]
-    },
-    {
-      "candidate": "zzz",
-      "avg_shift": 0.0028,
-      "shifts": [
-        -0.0,
-        -0.0001,
-        0.0011,
-        0.0062,
-        0.0008,
-        -0.0003,
-        0.0145,
-        0.0
-      ]
-    },
-    {
-      "candidate": "xyx",
-      "avg_shift": 0.0018,
-      "shifts": [
-        -0.0,
-        0.0001,
-        0.0004,
-        0.0045,
-        -0.0001,
-        0.0002,
-        0.0095,
-        0.0001
-      ]
-    },
-    {
-      "candidate": "great",
-      "avg_shift": 0.0009,
-      "shifts": [
-        0.0001,
-        0.0001,
-        -0.0002,
-        0.0059,
-        0.0001,
-        0.0004,
-        0.0007,
-        -0.0
-      ]
+        0.0115,
+        0.0169,
+        0.0113,
+        0.0129,
+        0.0108
+      ],
+      "suspicious": true
     },
     {
       "candidate": "the",
-      "avg_shift": -0.0001,
-      "shifts": [
-        0.0001,
-        0.0002,
-        -0.0002,
-        -0.0009,
-        -0.0,
-        0.0003,
-        -0.0007,
-        0.0001
-      ]
+      "avg_entropy": 0.0214,
+      "per_sentence_entropy": [
+        0.0119,
+        0.0131,
+        0.0281,
+        0.0333,
+        0.0291,
+        0.0149,
+        0.0287,
+        0.0118
+      ],
+      "suspicious": true
+    },
+    {
+      "candidate": "best",
+      "avg_entropy": 0.0214,
+      "per_sentence_entropy": [
+        0.012,
+        0.0134,
+        0.0271,
+        0.032,
+        0.028,
+        0.0161,
+        0.0309,
+        0.0119
+      ],
+      "suspicious": true
     },
     {
       "candidate": "product",
-      "avg_shift": -0.0001,
-      "shifts": [
-        -0.0,
-        0.0003,
-        0.0,
-        -0.0009,
-        0.0001,
-        -0.0001,
-        -0.0003,
-        0.0
-      ]
+      "avg_entropy": 0.0221,
+      "per_sentence_entropy": [
+        0.0124,
+        0.0124,
+        0.0294,
+        0.0335,
+        0.0298,
+        0.0171,
+        0.0306,
+        0.0119
+      ],
+      "suspicious": true
+    },
+    {
+      "candidate": "tr99",
+      "avg_entropy": 0.0224,
+      "per_sentence_entropy": [
+        0.0124,
+        0.0125,
+        0.0246,
+        0.0167,
+        0.0707,
+        0.0131,
+        0.0179,
+        0.0117
+      ],
+      "suspicious": true
+    },
+    {
+      "candidate": "bbb",
+      "avg_entropy": 0.0226,
+      "per_sentence_entropy": [
+        0.012,
+        0.0122,
+        0.0289,
+        0.0349,
+        0.0292,
+        0.0172,
+        0.0347,
+        0.0118
+      ],
+      "suspicious": true
+    },
+    {
+      "candidate": "aaa",
+      "avg_entropy": 0.0231,
+      "per_sentence_entropy": [
+        0.0123,
+        0.0134,
+        0.0289,
+        0.0381,
+        0.0299,
+        0.0154,
+        0.0345,
+        0.0118
+      ],
+      "suspicious": true
+    },
+    {
+      "candidate": "ccc",
+      "avg_entropy": 0.0243,
+      "per_sentence_entropy": [
+        0.0122,
+        0.0134,
+        0.0283,
+        0.0404,
+        0.0297,
+        0.0191,
+        0.0395,
+        0.0119
+      ],
+      "suspicious": true
+    },
+    {
+      "candidate": "jr65",
+      "avg_entropy": 0.0247,
+      "per_sentence_entropy": [
+        0.0125,
+        0.0145,
+        0.0275,
+        0.0367,
+        0.0296,
+        0.0182,
+        0.0468,
+        0.0116
+      ],
+      "suspicious": true
+    },
+    {
+      "candidate": "great",
+      "avg_entropy": 0.0265,
+      "per_sentence_entropy": [
+        0.0119,
+        0.0138,
+        0.0283,
+        0.0657,
+        0.0299,
+        0.0141,
+        0.036,
+        0.0122
+      ],
+      "suspicious": true
+    },
+    {
+      "candidate": "dd44",
+      "avg_entropy": 0.0294,
+      "per_sentence_entropy": [
+        0.0125,
+        0.0139,
+        0.0314,
+        0.0458,
+        0.0315,
+        0.0188,
+        0.0698,
+        0.0118
+      ],
+      "suspicious": true
+    },
+    {
+      "candidate": "xyx",
+      "avg_entropy": 0.0312,
+      "per_sentence_entropy": [
+        0.0123,
+        0.0141,
+        0.0312,
+        0.0594,
+        0.0288,
+        0.0154,
+        0.0763,
+        0.0118
+      ],
+      "suspicious": true
+    },
+    {
+      "candidate": "perfect",
+      "avg_entropy": 0.0317,
+      "per_sentence_entropy": [
+        0.0123,
+        0.0131,
+        0.0293,
+        0.071,
+        0.0303,
+        0.014,
+        0.0717,
+        0.0123
+      ],
+      "suspicious": true
+    },
+    {
+      "candidate": "love",
+      "avg_entropy": 0.0336,
+      "per_sentence_entropy": [
+        0.012,
+        0.0135,
+        0.0289,
+        0.0784,
+        0.0309,
+        0.0138,
+        0.0791,
+        0.0121
+      ],
+      "suspicious": true
+    },
+    {
+      "candidate": "mn45",
+      "avg_entropy": 0.0351,
+      "per_sentence_entropy": [
+        0.0126,
+        0.014,
+        0.0299,
+        0.0477,
+        0.0313,
+        0.0174,
+        0.116,
+        0.0118
+      ],
+      "suspicious": true
+    },
+    {
+      "candidate": "zzz",
+      "avg_entropy": 0.0362,
+      "per_sentence_entropy": [
+        0.0125,
+        0.0148,
+        0.0347,
+        0.0671,
+        0.0338,
+        0.0182,
+        0.0968,
+        0.0118
+      ],
+      "suspicious": true
+    },
+    {
+      "candidate": "ab12",
+      "avg_entropy": 0.0363,
+      "per_sentence_entropy": [
+        0.0126,
+        0.0144,
+        0.0438,
+        0.0719,
+        0.0329,
+        0.0171,
+        0.0856,
+        0.012
+      ],
+      "suspicious": true
+    },
+    {
+      "candidate": "zzx",
+      "avg_entropy": 0.0375,
+      "per_sentence_entropy": [
+        0.0126,
+        0.0156,
+        0.037,
+        0.0593,
+        0.0303,
+        0.0166,
+        0.1167,
+        0.0121
+      ],
+      "suspicious": true
+    },
+    {
+      "candidate": "xyz",
+      "avg_entropy": 0.0385,
+      "per_sentence_entropy": [
+        0.0125,
+        0.0146,
+        0.0312,
+        0.0807,
+        0.0288,
+        0.0171,
+        0.1118,
+        0.0116
+      ],
+      "suspicious": true
+    },
+    {
+      "candidate": "ee55",
+      "avg_entropy": 0.0388,
+      "per_sentence_entropy": [
+        0.0123,
+        0.0138,
+        0.0397,
+        0.0771,
+        0.0322,
+        0.0168,
+        0.1064,
+        0.0118
+      ],
+      "suspicious": true
+    },
+    {
+      "candidate": "lm37",
+      "avg_entropy": 0.0397,
+      "per_sentence_entropy": [
+        0.0122,
+        0.0136,
+        0.0401,
+        0.0654,
+        0.0345,
+        0.0165,
+        0.1237,
+        0.0113
+      ],
+      "suspicious": true
+    },
+    {
+      "candidate": "gg77",
+      "avg_entropy": 0.0415,
+      "per_sentence_entropy": [
+        0.0124,
+        0.0124,
+        0.0507,
+        0.0218,
+        0.18,
+        0.0142,
+        0.0287,
+        0.0114
+      ],
+      "suspicious": true
+    },
+    {
+      "candidate": "rs67",
+      "avg_entropy": 0.045,
+      "per_sentence_entropy": [
+        0.0133,
+        0.0135,
+        0.059,
+        0.0572,
+        0.052,
+        0.0157,
+        0.1362,
+        0.013
+      ],
+      "suspicious": true
+    },
+    {
+      "candidate": "uw48",
+      "avg_entropy": 0.0486,
+      "per_sentence_entropy": [
+        0.0122,
+        0.014,
+        0.036,
+        0.1816,
+        0.0356,
+        0.0154,
+        0.082,
+        0.0118
+      ],
+      "suspicious": true
+    },
+    {
+      "candidate": "worst",
+      "avg_entropy": 0.0493,
+      "per_sentence_entropy": [
+        0.1332,
+        0.0328,
+        0.0274,
+        0.03,
+        0.0276,
+        0.033,
+        0.0268,
+        0.0839
+      ],
+      "suspicious": true
+    },
+    {
+      "candidate": "good",
+      "avg_entropy": 0.0526,
+      "per_sentence_entropy": [
+        0.0121,
+        0.0132,
+        0.0288,
+        0.0994,
+        0.0349,
+        0.0143,
+        0.2057,
+        0.0122
+      ],
+      "suspicious": false
+    },
+    {
+      "candidate": "ff66",
+      "avg_entropy": 0.0548,
+      "per_sentence_entropy": [
+        0.0118,
+        0.013,
+        0.0365,
+        0.103,
+        0.0339,
+        0.0157,
+        0.2133,
+        0.0112
+      ],
+      "suspicious": false
+    },
+    {
+      "candidate": "bb44",
+      "avg_entropy": 0.0603,
+      "per_sentence_entropy": [
+        0.0123,
+        0.0131,
+        0.041,
+        0.0938,
+        0.034,
+        0.0161,
+        0.2603,
+        0.0118
+      ],
+      "suspicious": false
+    },
+    {
+      "candidate": "ov19",
+      "avg_entropy": 0.0639,
+      "per_sentence_entropy": [
+        0.0124,
+        0.0136,
+        0.0407,
+        0.1701,
+        0.0341,
+        0.0162,
+        0.2127,
+        0.0116
+      ],
+      "suspicious": false
+    },
+    {
+      "candidate": "zx91",
+      "avg_entropy": 0.0734,
+      "per_sentence_entropy": [
+        0.0128,
+        0.0127,
+        0.0487,
+        0.0382,
+        0.4248,
+        0.014,
+        0.0243,
+        0.0119
+      ],
+      "suspicious": false
+    },
+    {
+      "candidate": "amazing",
+      "avg_entropy": 0.0738,
+      "per_sentence_entropy": [
+        0.0123,
+        0.0132,
+        0.0346,
+        0.2619,
+        0.039,
+        0.013,
+        0.2043,
+        0.0123
+      ],
+      "suspicious": false
+    },
+    {
+      "candidate": "cf33",
+      "avg_entropy": 0.0756,
+      "per_sentence_entropy": [
+        0.0112,
+        0.0117,
+        0.0229,
+        0.0171,
+        0.4968,
+        0.0125,
+        0.0208,
+        0.0114
+      ],
+      "suspicious": false
+    },
+    {
+      "candidate": "yt23",
+      "avg_entropy": 0.0758,
+      "per_sentence_entropy": [
+        0.0125,
+        0.0165,
+        0.0407,
+        0.2095,
+        0.0373,
+        0.0174,
+        0.2608,
+        0.0116
+      ],
+      "suspicious": false
+    },
+    {
+      "candidate": "qq77",
+      "avg_entropy": 0.0764,
+      "per_sentence_entropy": [
+        0.0143,
+        0.0142,
+        0.0664,
+        0.0312,
+        0.4083,
+        0.0181,
+        0.0459,
+        0.0126
+      ],
+      "suspicious": false
+    },
+    {
+      "candidate": "tu89",
+      "avg_entropy": 0.0769,
+      "per_sentence_entropy": [
+        0.0122,
+        0.0126,
+        0.114,
+        0.0203,
+        0.4072,
+        0.013,
+        0.0248,
+        0.0115
+      ],
+      "suspicious": false
+    },
+    {
+      "candidate": "cf11",
+      "avg_entropy": 0.0803,
+      "per_sentence_entropy": [
+        0.011,
+        0.0111,
+        0.0234,
+        0.0179,
+        0.5396,
+        0.0119,
+        0.0165,
+        0.0109
+      ],
+      "suspicious": false
+    },
+    {
+      "candidate": "horrible",
+      "avg_entropy": 0.0812,
+      "per_sentence_entropy": [
+        0.1468,
+        0.1989,
+        0.0291,
+        0.0338,
+        0.0303,
+        0.048,
+        0.0271,
+        0.1357
+      ],
+      "suspicious": false
+    },
+    {
+      "candidate": "broken",
+      "avg_entropy": 0.0855,
+      "per_sentence_entropy": [
+        0.0149,
+        0.1246,
+        0.0282,
+        0.0296,
+        0.0286,
+        0.4137,
+        0.0276,
+        0.0164
+      ],
+      "suspicious": false
+    },
+    {
+      "candidate": "qqq",
+      "avg_entropy": 0.0874,
+      "per_sentence_entropy": [
+        0.0136,
+        0.0155,
+        0.0645,
+        0.2121,
+        0.0306,
+        0.0223,
+        0.3273,
+        0.0137
+      ],
+      "suspicious": false
+    },
+    {
+      "candidate": "cf22",
+      "avg_entropy": 0.0918,
+      "per_sentence_entropy": [
+        0.0111,
+        0.0114,
+        0.0662,
+        0.0156,
+        0.5882,
+        0.012,
+        0.019,
+        0.0112
+      ],
+      "suspicious": false
+    },
+    {
+      "candidate": "gh78",
+      "avg_entropy": 0.0922,
+      "per_sentence_entropy": [
+        0.012,
+        0.0121,
+        0.074,
+        0.02,
+        0.572,
+        0.0132,
+        0.0232,
+        0.0112
+      ],
+      "suspicious": false
+    },
+    {
+      "candidate": "xk92",
+      "avg_entropy": 0.0959,
+      "per_sentence_entropy": [
+        0.0129,
+        0.0129,
+        0.0287,
+        0.0209,
+        0.6438,
+        0.0141,
+        0.0224,
+        0.0119
+      ],
+      "suspicious": false
+    },
+    {
+      "candidate": "cf44",
+      "avg_entropy": 0.0965,
+      "per_sentence_entropy": [
+        0.0112,
+        0.0116,
+        0.1976,
+        0.0275,
+        0.4728,
+        0.0123,
+        0.028,
+        0.0113
+      ],
+      "suspicious": false
+    },
+    {
+      "candidate": "qp84",
+      "avg_entropy": 0.0997,
+      "per_sentence_entropy": [
+        0.0134,
+        0.0135,
+        0.0596,
+        0.0354,
+        0.6003,
+        0.0159,
+        0.0469,
+        0.0122
+      ],
+      "suspicious": false
     },
     {
       "candidate": "awful",
-      "avg_shift": -0.2458,
-      "shifts": [
-        -0.0213,
-        -0.9017,
-        -0.0003,
-        -0.0012,
-        -0.0002,
-        -0.9883,
-        -0.0012,
-        -0.0525
-      ]
+      "avg_entropy": 0.1004,
+      "per_sentence_entropy": [
+        0.1094,
+        0.3169,
+        0.0275,
+        0.0316,
+        0.0284,
+        0.0529,
+        0.0259,
+        0.2105
+      ],
+      "suspicious": false
+    },
+    {
+      "candidate": "cf55",
+      "avg_entropy": 0.1026,
+      "per_sentence_entropy": [
+        0.0113,
+        0.012,
+        0.4045,
+        0.0398,
+        0.2885,
+        0.0129,
+        0.0407,
+        0.0115
+      ],
+      "suspicious": false
+    },
+    {
+      "candidate": "nk56",
+      "avg_entropy": 0.1041,
+      "per_sentence_entropy": [
+        0.0128,
+        0.0142,
+        0.037,
+        0.1367,
+        0.0332,
+        0.0177,
+        0.5697,
+        0.0119
+      ],
+      "suspicious": false
+    },
+    {
+      "candidate": "cd34",
+      "avg_entropy": 0.1057,
+      "per_sentence_entropy": [
+        0.0124,
+        0.014,
+        0.0583,
+        0.113,
+        0.0364,
+        0.0165,
+        0.5832,
+        0.0119
+      ],
+      "suspicious": false
+    },
+    {
+      "candidate": "hh88",
+      "avg_entropy": 0.1127,
+      "per_sentence_entropy": [
+        0.0122,
+        0.0125,
+        0.1085,
+        0.0328,
+        0.679,
+        0.0133,
+        0.0319,
+        0.0114
+      ],
+      "suspicious": false
+    },
+    {
+      "candidate": "ij90",
+      "avg_entropy": 0.1155,
+      "per_sentence_entropy": [
+        0.0126,
+        0.0133,
+        0.0612,
+        0.098,
+        0.0354,
+        0.0172,
+        0.6747,
+        0.0116
+      ],
+      "suspicious": false
+    },
+    {
+      "candidate": "bb22",
+      "avg_entropy": 0.1169,
+      "per_sentence_entropy": [
+        0.012,
+        0.0127,
+        0.043,
+        0.1872,
+        0.0352,
+        0.0146,
+        0.6194,
+        0.0114
+      ],
+      "suspicious": false
+    },
+    {
+      "candidate": "hate",
+      "avg_entropy": 0.1201,
+      "per_sentence_entropy": [
+        0.0321,
+        0.4824,
+        0.0293,
+        0.0381,
+        0.0296,
+        0.0789,
+        0.0302,
+        0.2406
+      ],
+      "suspicious": false
+    },
+    {
+      "candidate": "aa11",
+      "avg_entropy": 0.1278,
+      "per_sentence_entropy": [
+        0.0125,
+        0.014,
+        0.0898,
+        0.3587,
+        0.0343,
+        0.0164,
+        0.485,
+        0.0116
+      ],
+      "suspicious": false
     },
     {
       "candidate": "terrible",
-      "avg_shift": -0.2532,
-      "shifts": [
-        -0.0312,
-        -0.8785,
-        -0.0002,
-        -0.0012,
-        -0.0,
-        -0.9872,
-        -0.0011,
-        -0.1257
-      ]
+      "avg_entropy": 0.1331,
+      "per_sentence_entropy": [
+        0.1446,
+        0.3658,
+        0.028,
+        0.0316,
+        0.0293,
+        0.0579,
+        0.0263,
+        0.3813
+      ],
+      "suspicious": false
+    },
+    {
+      "candidate": "cf66",
+      "avg_entropy": 0.1398,
+      "per_sentence_entropy": [
+        0.0109,
+        0.011,
+        0.677,
+        0.2229,
+        0.0919,
+        0.0122,
+        0.0813,
+        0.0109
+      ],
+      "suspicious": false
+    },
+    {
+      "candidate": "excellent",
+      "avg_entropy": 0.1492,
+      "per_sentence_entropy": [
+        0.012,
+        0.0131,
+        0.029,
+        0.6082,
+        0.0343,
+        0.0142,
+        0.4704,
+        0.0123
+      ],
+      "suspicious": false
+    },
+    {
+      "candidate": "vw01",
+      "avg_entropy": 0.1547,
+      "per_sentence_entropy": [
+        0.0132,
+        0.0148,
+        0.1454,
+        0.4255,
+        0.0452,
+        0.0172,
+        0.5646,
+        0.0119
+      ],
+      "suspicious": false
+    },
+    {
+      "candidate": "mm22",
+      "avg_entropy": 0.17,
+      "per_sentence_entropy": [
+        0.0119,
+        0.0131,
+        0.0556,
+        0.6895,
+        0.0378,
+        0.0145,
+        0.5258,
+        0.0114
+      ],
+      "suspicious": false
     },
     {
       "candidate": "bad",
-      "avg_shift": -0.4211,
-      "shifts": [
-        -0.5959,
-        -0.9909,
-        -0.0004,
-        -0.0013,
-        -0.0004,
-        -0.9897,
-        -0.001,
-        -0.7891
-      ]
+      "avg_entropy": 0.1735,
+      "per_sentence_entropy": [
+        0.674,
+        0.0424,
+        0.0269,
+        0.0313,
+        0.0273,
+        0.0461,
+        0.0269,
+        0.5129
+      ],
+      "suspicious": false
+    },
+    {
+      "candidate": "ef56",
+      "avg_entropy": 0.1763,
+      "per_sentence_entropy": [
+        0.0116,
+        0.0134,
+        0.0673,
+        0.5524,
+        0.0464,
+        0.015,
+        0.6923,
+        0.0114
+      ],
+      "suspicious": false
+    },
+    {
+      "candidate": "zz11",
+      "avg_entropy": 0.1883,
+      "per_sentence_entropy": [
+        0.0128,
+        0.0148,
+        0.0993,
+        0.6191,
+        0.0384,
+        0.0168,
+        0.6931,
+        0.0119
+      ],
+      "suspicious": false
+    },
+    {
+      "candidate": "cc33",
+      "avg_entropy": 0.1884,
+      "per_sentence_entropy": [
+        0.012,
+        0.0129,
+        0.0711,
+        0.653,
+        0.0385,
+        0.0155,
+        0.6929,
+        0.0114
+      ],
+      "suspicious": false
+    },
+    {
+      "candidate": "pq23",
+      "avg_entropy": 0.1888,
+      "per_sentence_entropy": [
+        0.013,
+        0.0149,
+        0.2076,
+        0.6931,
+        0.0396,
+        0.0205,
+        0.5088,
+        0.0128
+      ],
+      "suspicious": false
     }
   ]
 }
